@@ -1,5 +1,5 @@
 <section class="bg-[#0A0914] py-15">
-	<div class="mx-auto grid w-[80%] max-w-7xl items-center gap-12 px-6 md:grid-cols-2">
+	<div class="mx-auto grid w-[80%] max-w-7xl items-center gap-8 px-6 md:grid-cols-2">
 		<!-- LEFT SIDE : TEXT CONTENT -->
 		<div>
 			<!-- First line: Icon + Text with rounded border -->
@@ -63,7 +63,7 @@
 			<!-- Seventh line: Two buttons -->
 			<div class="flex gap-3">
 				<button
-					class="flex h-[44px] w-[149px] gap-2.5 rounded-xl border border-[#FAFAFF1A] px-4 py-3 opacity-100"
+					class="flex h-11 cursor-pointer gap-2.5 rounded-xl border border-[#FAFAFF1A] px-4 py-3 opacity-100"
 				>
 					<span
 						class="h-2.5 font-['Satoshi_Variable'] text-[14px] leading-[140%] font-semibold tracking-[2%] text-[#FAFAFF]"
@@ -72,7 +72,7 @@
 					</span>
 				</button>
 
-				<button class="flex h-11 w-[173px] gap-2.5 rounded-xl bg-[#6852D6] px-4 py-3">
+				<button class="flex h-11 cursor-pointer gap-2.5 rounded-xl bg-[#6852D6] px-4 py-3">
 					<span
 						class="h-5 font-['Satoshi_Variable'] text-[14px] leading-[140%] font-semibold tracking-[2%] text-[#FCFCFE]"
 					>

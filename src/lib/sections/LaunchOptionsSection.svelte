@@ -24,22 +24,22 @@
 <section class="bg-[#0A0914] px-6 py-20">
 	<div class="mx-auto w-[80%] max-w-7xl text-center">
 		<p
-			class="h-5.75 text-center font-['Satoshi_Variable'] text-[22px] leading-[106%] font-semibold tracking-normal text-[#6852D6]"
+			class="h-5.75 pb-[30px] text-center font-['Satoshi_Variable'] text-[22px] leading-[106%] font-semibold tracking-normal text-[#6852D6]"
 		>
 			Chat integration options
 		</p>
 
 		<h2
-			class="h-12.75 text-center font-['Satoshi_Variable'] text-[48px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]"
+			class="h-12.75 pb-[60px] text-center font-['Satoshi_Variable'] text-[48px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]"
 		>
 			Your launch, your way. Done right.
 		</h2>
 
 		<p
-			class="h-13 text-center font-['Satoshi_Variable'] text-[22px] leading-[120%] font-medium tracking-[0.5%] text-[#FAFAFF] opacity-74"
+			class="h-13 pb-[120px] text-center font-['Satoshi_Variable'] text-[22px] leading-[120%] font-medium tracking-[0.5%] text-[#FAFAFF] opacity-74"
 		>
-			Start with what gets you to production fastest — or matches your needs the best. Swap it out
-			or level it up later.
+			Start with what gets you to production fastest — or matches your needs the best. <br /> Swap it
+			out or level it up later.
 		</p>
 
 		<!-- GRID FRAME -->
@@ -107,29 +107,31 @@
 			></div>
 
 			<!-- CARDS -->
+
 			<div class="grid text-left md:grid-cols-3">
 				{#each options as option (option.title)}
-					<div class="p-12">
+					<div class="p-7">
 						<img src={option.icon} alt="icon" class="h-16 w-16" />
+						<div>
+							<h3
+								class="mt-[75px] font-['Satoshi_Variable'] text-[24px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]"
+							>
+								{option.title}
+							</h3>
 
-						<h3
-							class="font-['Satoshi_Variable'] text-[24px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]"
-						>
-							{option.title}
-						</h3>
+							<p
+								class="py-[15px] font-['Satoshi_Variable'] text-[18px] leading-[120%] font-medium tracking-[0.5%] text-[#FAFAFF] opacity-74"
+							>
+								{option.desc}
+							</p>
 
-						<p
-							class="font-['Satoshi_Variable'] text-[18px] leading-[120%] font-medium tracking-[0.5%] text-[#FAFAFF] opacity-74"
-						>
-							{option.desc}
-						</p>
-
-						<a
-							href="#"
-							class="font-['Satoshi_Variable'] text-[18px] leading-[112%] font-semibold tracking-normal text-[#6852D6]"
-						>
-							{option.link}
-						</a>
+							<a
+								href="#"
+								class="font-['Satoshi_Variable'] text-[18px] leading-[112%] font-semibold tracking-normal text-[#6852D6]"
+							>
+								{option.link}
+							</a>
+						</div>
 					</div>
 				{/each}
 			</div>

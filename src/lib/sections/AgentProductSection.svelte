@@ -3,7 +3,7 @@
 		<!-- LEFT CONTENT -->
 		<div class="space-y-6">
 			<h2
-				class="h-51 w-132 font-['Satoshi_Variable'] text-[48px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]"
+				class="mb-3 h-51 w-132 font-['Satoshi_Variable'] text-[48px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]"
 			>
 				Everything your agent needs to go from prototype to product — fixed.
 			</h2>

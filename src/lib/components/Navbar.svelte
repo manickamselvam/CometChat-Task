@@ -30,10 +30,10 @@
 			</button>
 
 			<button
-				class="flex h-9 w-[140px] items-center justify-center gap-[10px] rounded-[10px] bg-[#6852D6] px-3 py-2 text-sm font-medium text-white"
+				class="flex h-9 cursor-pointer items-center justify-center gap-2.5 rounded-[10px] bg-[#6852D6] px-3 py-2 text-sm font-medium text-white"
 			>
 				<span
-					class="h-5 w-[116px] font-['Satoshi_Variable'] text-sm leading-[140%] font-semibold tracking-[0.02em] text-[#FCFCFE]"
+					class="h-5 font-['Satoshi_Variable'] text-sm leading-[140%] font-semibold tracking-[0.02em] text-[#FCFCFE]"
 					>Schedule a demo</span
 				>
 			</button>

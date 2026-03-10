@@ -1,4 +1,4 @@
-<section class="bg-[#0A0914] py-24 text-white">
+<section class="bg-[#0A0914] pt-24 text-white">
 	<div class="mx-auto max-w-5xl space-y-10 px-6 text-center">
 		<!-- IMAGE -->
 		<div class="flex justify-center">

@@ -1,4 +1,4 @@
-<section class="bg-[#0A0914] py-24 text-white">
+<section class="bg-[#0A0914] py-10 text-white">
 	<div class="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2">
 		<!-- LEFT CONTENT -->
 		<div class="space-y-8">

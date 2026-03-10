@@ -1,4 +1,4 @@
-<div class="bg-[#0A0914] py-20">
+<div class="bg-[#0A0914] pt-10">
 	<div class="relative mx-auto max-w-6xl">
 		<img src="/Planat-of-cometchat.png" alt="cometchat icon" class="mx-auto" />
 

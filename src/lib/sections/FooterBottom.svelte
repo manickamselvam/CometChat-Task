@@ -1,5 +1,5 @@
 <footer class="bg-[#0A0914] text-white">
-	<div class="mx-auto max-w-7xl px-8 py-8">
+	<div class="mx-auto max-w-7xl py-8">
 		<!-- Logo -->
 		<div class="mb-8">
 			<img src="/CometChat-Logo-footer-transparent.png" alt="CometChat Logo" class="w-full" />

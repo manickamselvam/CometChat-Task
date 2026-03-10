@@ -110,4 +110,9 @@
 			/>
 		</div>
 	</div>
+	<!-- <hr> -->
+	<div
+		class="ml-16 h-0 w-328 border-t opacity-100 mt-[70px]"
+		style="border-image: linear-gradient(90deg, rgba(250, 250, 255, 0) 0%, rgba(250, 250, 255, 0.1) 5%, rgba(250, 250, 255, 0.1) 95%, rgba(250, 250, 255, 0) 100%) 1;"
+	></div>
 </section>

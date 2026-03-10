@@ -25,7 +25,7 @@
 	];
 </script>
 
-<section class="bg-[#0A0914] py-24 text-white">
+<section class="bg-[#0A0914] py-8 text-white">
 	<div class="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-2">
 		{#each cards as card (card)}
 			<AgentPathCard {...card} />

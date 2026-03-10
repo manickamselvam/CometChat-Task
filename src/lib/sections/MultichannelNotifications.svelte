@@ -1,4 +1,4 @@
-<section class="bg-[#0A0914] py-24 text-white">
+<section class="bg-[#0A0914] py-8 text-white">
 	<div class="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2">
 		<!-- LEFT CONTENT -->
 		<div class="space-y-8">
@@ -11,7 +11,9 @@
 			</a>
 
 			<!-- HEADING -->
-			<h2 class="h-25.5 w-129.5 font-['Satoshi_Variable'] text-[32px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]">
+			<h2
+				class="h-25.5 w-129.5 font-['Satoshi_Variable'] text-[32px] leading-[106%] font-semibold tracking-normal text-[#FAFAFF]"
+			>
 				Your agent is only helpful if people come back to talk to it.
 			</h2>
 
@@ -97,4 +99,9 @@
 			/>
 		</div>
 	</div>
+	<!-- <hr> -->
+	<div
+		class="mt-[70px] ml-16 h-0 w-328 border-t opacity-100"
+		style="border-image: linear-gradient(90deg, rgba(250, 250, 255, 0) 0%, rgba(250, 250, 255, 0.1) 5%, rgba(250, 250, 255, 0.1) 95%, rgba(250, 250, 255, 0) 100%) 1;"
+	></div>
 </section>
