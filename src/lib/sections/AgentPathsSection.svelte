@@ -10,7 +10,9 @@
 				'Plug into CometChat’s UI, mod, notifications, and insights',
 				'Modular, protocol-compatible, and fast to implement'
 			],
-			image: '/Ai-BYOB.png'
+			image: '/Ai-BYOB.png',
+			imageAlt:
+				'Diagram showing how to integrate your own AI agent brain with CometChat infrastructure'
 		},
 		{
 			icon: 'Build-inside-icon.svg',
@@ -20,7 +22,8 @@
 				'Design prompt logic, memory, retries, tool use',
 				'Simulate and ship — all from a single canvas'
 			],
-			image: '/AI-Build Inside-CometChat.png'
+			image: '/AI-Build Inside-CometChat.png',
+			imageAlt: 'Screenshot of CometChat Visual Agent Builder interface showing prompt design canvas'
 		}
 	];
 </script>
